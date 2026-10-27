@@ -151,6 +151,7 @@
     <ClCompile Include="zad3\test3.cpp" />
     <ClCompile Include="zad4\test4.cpp" />
     <ClCompile Include="zad5\test5.cpp" />
+    <ClCompile Include="zad6\test6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad2\BlendCoffee.h" />
@@ -179,6 +180,12 @@
     <ClInclude Include="zad5\Item2.h" />
     <ClInclude Include="zad5\Items.h" />
     <ClInclude Include="zad5\test5.h" />
+    <ClInclude Include="zad6\DriverCounter.h" />
+    <ClInclude Include="zad6\DriverDCDrive.h" />
+    <ClInclude Include="zad6\DriverMotor.h" />
+    <ClInclude Include="zad6\HAL.h" />
+    <ClInclude Include="zad6\SpeedAdapter.h" />
+    <ClInclude Include="zad6\test6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

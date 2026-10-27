@@ -4,3 +4,4 @@
 #include "zad3/test3.h"
 #include "zad4/test4.h"
 #include "zad5/test5.h"
+#include "zad6/test6.h"

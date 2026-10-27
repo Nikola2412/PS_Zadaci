@@ -51,6 +51,9 @@
     <ClCompile Include="zad5\test5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad6\test6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -129,6 +132,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad5\test5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\HAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\DriverCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\DriverDCDrive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\DriverMotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\SpeedAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad6\test6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
