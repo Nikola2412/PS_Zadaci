@@ -152,6 +152,7 @@
     <ClCompile Include="zad4\test4.cpp" />
     <ClCompile Include="zad5\test5.cpp" />
     <ClCompile Include="zad6\test6.cpp" />
+    <ClCompile Include="zad7\test7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad2\BlendCoffee.h" />
@@ -186,6 +187,13 @@
     <ClInclude Include="zad6\HAL.h" />
     <ClInclude Include="zad6\SpeedAdapter.h" />
     <ClInclude Include="zad6\test6.h" />
+    <ClInclude Include="zad7\TextureGalleryMars.h" />
+    <ClInclude Include="zad7\Texture.h" />
+    <ClInclude Include="zad7\TextureGallery.h" />
+    <ClInclude Include="zad7\TextureGalleryEarth.h" />
+    <ClInclude Include="zad7\TextureLand.h" />
+    <ClInclude Include="zad7\TextureWater.h" />
+    <ClInclude Include="zad7\test7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

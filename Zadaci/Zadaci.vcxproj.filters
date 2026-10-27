@@ -54,6 +54,9 @@
     <ClCompile Include="zad6\test6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad7\test7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -150,6 +153,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad6\test6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\TextureGallery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\TextureGalleryEarth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\TextureWater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\TextureLand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\test7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad7\TextureGalleryMars.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
