@@ -5,7 +5,8 @@
 #include <random>
 #include "QuestionChooser.h"
 
-// Strategija. Kad se pozove displayQuestion 
+// Strategija. 
+// Kad se pozove displayQuestion 
 // zove se questionChooser umesto grananja ifa.
 
 class Chatbot {

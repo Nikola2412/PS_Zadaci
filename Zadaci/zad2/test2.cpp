@@ -1,5 +1,6 @@
 #include <iostream>
-#include "test2.h"
+#include "../main.h"
+#include "Coffee.h"
 
 void test2() {
 	Coffee *coffee = new ChocolateCoffeeAddition(new MilkCoffeeAddition(new SugarCoffeeAddition(new BlendCoffee())));

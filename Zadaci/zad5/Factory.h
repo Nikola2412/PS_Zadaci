@@ -1,6 +1,8 @@
 #pragma once
 #include "Items.h"
 
+//apstraktna fabrika + prototip
+// prototip je kad ima kloniranja necega
 class Factory {
 protected:
 	Factory(Item1* item1, Item2* item2) : item1_(item1), item2_(item2) {}

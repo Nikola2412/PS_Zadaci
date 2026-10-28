@@ -1,5 +1,6 @@
-#include "test5.h"
+#include "../main.h"
 #include <iostream>
+#include "Factory.h"
 
 void test5() {
 	FactoryA factoryA(new Item1A(10), new Item2A(50));

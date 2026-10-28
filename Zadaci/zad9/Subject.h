@@ -6,3 +6,6 @@ class Subject {
     virtual int f3() = 0;
     virtual int id() = 0;
 };
+
+#include "SubjectImpl.h"
+#include "SubjectProxy.h"

@@ -1,5 +1,6 @@
-#include "test1.h"
+#include "../main.h"
 
+#include "Tea.h"
 void test1() {
 	Tea* tea = new Tea();
 	tea->makeBeverage();

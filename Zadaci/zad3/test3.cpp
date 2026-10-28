@@ -1,4 +1,4 @@
-#include "test3.h"
+#include "../main.h"
 #include "Singleton.h"
 #include "Multiton.h"
 

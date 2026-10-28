@@ -4,6 +4,7 @@
 #include "DriverDCDrive.h"
 #include "DriverMotor.h"
 
+// singleton  + Fasada
 
 class HAL {
 public:
@@ -17,6 +18,7 @@ private:
 	DriverDCDrive driverDCDrive;
 	DriverMotor driverMotor;
 
+	// fasada
 	void setSpeed(int speed) {
 		driverDCDrive.setSpeed(speed);
 		driverCounter.reset();

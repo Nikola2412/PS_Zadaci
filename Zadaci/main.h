@@ -1,9 +1,11 @@
 #pragma once
-#include "zad1/test1.h"
-#include "zad2/test2.h"
-#include "zad3/test3.h"
-#include "zad4/test4.h"
-#include "zad5/test5.h"
-#include "zad6/test6.h"
-#include "zad7/test7.h"
-#include "zad8/test8.h"
+
+void test1();
+void test2();
+void test3();
+void test4();
+void test5();
+void test6();
+void test7();
+void test8();
+void test9();

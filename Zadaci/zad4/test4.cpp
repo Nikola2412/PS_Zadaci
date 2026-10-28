@@ -1,4 +1,5 @@
-#include "test4.h"
+#include "../main.h"
+#include "Chatbot.h"
 
 void test4() {
 	QuestionChooser* questionChooser = new RandomQuestionChooser();

@@ -10,25 +10,27 @@ enum FieldType
 	WATER = 1
 };
 
+// apstraktna fabrika + muva
 class TextureGallery {
 	
 protected:
 	std::unordered_map<FieldType, Texture*> textures;
-	TextureWater* createTextureWater()
+
+	virtual TextureWater* createTextureWater()
 	{
 		return new TextureWater(TextureData{
 			.width = 40,
 			.height = 40,
-			.name = "Water"
+			.name = "default water"
 			});
 	}
 
-	TextureLand* createTextureLand()
+	virtual TextureLand* createTextureLand()
 	{
 		return new TextureLand(TextureData{
 			.width = 25,
 			.height = 25,
-			.name = "Land"
+			.name = "default land"
 			});
 	}
 
@@ -57,6 +59,7 @@ public:
 		textures.clear();
 	}
 
+	//sablonski metod jer su createTextureLand/Water koraci koji se redefinisu
 	Texture* getTexture(FieldType fieldType) {
 		if(textures.find(fieldType) == textures.end()) {
 			if(fieldType == FieldType::LAND) {

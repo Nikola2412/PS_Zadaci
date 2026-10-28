@@ -1,4 +1,4 @@
-#include "test8.h"
+#include "../main.h"
 #include "OS.h"
 
 void test8() {

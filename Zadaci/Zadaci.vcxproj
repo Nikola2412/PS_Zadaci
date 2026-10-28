@@ -141,12 +141,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="zad2\BlendCoffee.cpp" />
-    <ClCompile Include="zad2\SingleOriginCoffee.cpp" />
-    <ClCompile Include="zad2\Coffee.cpp" />
-    <ClCompile Include="zad1\coffee.cpp" />
-    <ClCompile Include="zad1\Tea.cpp" />
-    <ClCompile Include="zad1\maker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="zad1\test1.cpp" />
     <ClCompile Include="zad2\test2.cpp" />
@@ -156,6 +150,7 @@
     <ClCompile Include="zad6\test6.cpp" />
     <ClCompile Include="zad7\test7.cpp" />
     <ClCompile Include="zad8\test8.cpp" />
+    <ClCompile Include="zad9\test9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad2\BlendCoffee.h" />
@@ -168,45 +163,39 @@
     <ClInclude Include="zad1\coffee.h" />
     <ClInclude Include="zad1\Tea.h" />
     <ClInclude Include="zad1\maker.h" />
-    <ClInclude Include="zad1\test1.h" />
     <ClInclude Include="zad2\SugarCoffeeAddition.h" />
-    <ClInclude Include="zad2\test2.h" />
     <ClInclude Include="zad3\Multiton.h" />
     <ClInclude Include="zad3\Singleton.h" />
-    <ClInclude Include="zad3\test3.h" />
     <ClInclude Include="zad4\Chatbot.h" />
     <ClInclude Include="zad4\FirstQuestionChooser.h" />
     <ClInclude Include="zad4\QuestionChooser.h" />
     <ClInclude Include="zad4\RandomQuestionChooser.h" />
-    <ClInclude Include="zad4\test4.h" />
     <ClInclude Include="zad5\Factory.h" />
     <ClInclude Include="zad5\Item1.h" />
     <ClInclude Include="zad5\Item2.h" />
     <ClInclude Include="zad5\Items.h" />
-    <ClInclude Include="zad5\test5.h" />
     <ClInclude Include="zad6\DriverCounter.h" />
     <ClInclude Include="zad6\DriverDCDrive.h" />
     <ClInclude Include="zad6\DriverMotor.h" />
     <ClInclude Include="zad6\HAL.h" />
     <ClInclude Include="zad6\SpeedAdapter.h" />
-    <ClInclude Include="zad6\test6.h" />
     <ClInclude Include="zad7\TextureGalleryMars.h" />
     <ClInclude Include="zad7\Texture.h" />
     <ClInclude Include="zad7\TextureGallery.h" />
     <ClInclude Include="zad7\TextureGalleryEarth.h" />
     <ClInclude Include="zad7\TextureLand.h" />
     <ClInclude Include="zad7\TextureWater.h" />
-    <ClInclude Include="zad7\test7.h" />
     <ClInclude Include="zad8\MemFragment.h" />
     <ClInclude Include="zad8\MemFragmentImpl.h" />
     <ClInclude Include="zad8\MemFragmentProxy.h" />
     <ClInclude Include="zad8\OS.h" />
     <ClInclude Include="zad8\Process.h" />
-    <ClInclude Include="zad8\test8.h" />
     <ClInclude Include="zad9\ApacheAdapter.h" />
     <ClInclude Include="zad9\HttpInterface.h" />
     <ClInclude Include="zad9\Subject.h" />
+    <ClInclude Include="zad9\SubjectImpl.h" />
     <ClInclude Include="zad9\SubjectProxy.h" />
+    <ClInclude Include="zad9\SubjectRegistry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

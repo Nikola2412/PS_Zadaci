@@ -1,6 +1,7 @@
 #pragma once
 #include "SpeedAdapter.h"
-#include "test6.h"
+#include "../main.h"
+
 
 void test6() {
 	SpeedAdapter speedAdapter;

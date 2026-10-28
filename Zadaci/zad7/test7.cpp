@@ -1,41 +1,46 @@
-#include "test7.h"
+#include "../main.h"
 #include "TextureGallery.h"
 
 #include <iostream>
 
 void test7() {
 	TextureGallery* galleryEarth = new TextureGalleryEarth();
-	Texture* textureLand = galleryEarth->getTexture(FieldType::LAND);
-
-	textureLand->setTextureData(TextureData{
-		.width = textureLand->getTextureData().width,
-		.height = textureLand->getTextureData().height,
-		.name = "test"
-		});
+	TextureGallery* galleryMars = new TextureGalleryMars();
+	Texture* textureEarthLand = galleryEarth->getTexture(FieldType::LAND);
+	Texture* textureMarsLand = galleryMars->getTexture(FieldType::LAND);
 	galleryEarth->printData();
+	galleryMars->printData();
 
-	Texture* textureLand2 = galleryEarth->getTexture(FieldType::LAND);
-
-	if (textureLand == textureLand2) {
-		std::cout << "Same texture" << std::endl;
-	}
-
-	Texture* textureWater = galleryEarth->getTexture(FieldType::WATER);
-
-	galleryEarth->printData();
-
-
-	textureWater->setTextureData(TextureData{
-		.width = textureWater->getTextureData().width + 20,
-		.height = textureWater->getTextureData().height - 25,
-		.name = "test2"
+	textureEarthLand->setTextureData(TextureData{
+		.width = textureEarthLand->getTextureData().width,
+		.height = textureEarthLand->getTextureData().height,
+		.name = "Earth test"
 		});
 
-	Texture* textureWater2 = galleryEarth->getTexture(FieldType::WATER);
+	textureMarsLand->setTextureData(TextureData{
+		.width = textureMarsLand->getTextureData().width,
+		.height = textureMarsLand->getTextureData().height,
+		.name = "Mars test"
+		});
+	galleryEarth->printData();
+	galleryMars->printData();
 
-	if (textureWater == textureWater2) {
-		std::cout << "Same texture" << std::endl;
-	}
+	Texture* textureEarthWater = galleryEarth->getTexture(FieldType::WATER);
+	Texture* textureMarsWater = galleryMars->getTexture(FieldType::WATER);
 
-	delete galleryEarth;
+	galleryEarth->printData();
+	galleryMars->printData();
+
+
+	textureEarthWater->setTextureData(TextureData{
+		.width = textureEarthWater->getTextureData().width + 20,
+		.height = textureEarthWater->getTextureData().height - 25,
+		.name = "Earth test"
+		});
+
+	textureMarsWater->setTextureData(TextureData{
+		.width = textureMarsWater->getTextureData().width + 20,
+		.height = textureMarsWater->getTextureData().height - 25,
+		.name = "Mars test"
+		});
 }
