@@ -1,7 +1,7 @@
 #pragma once
 #include "MemFragment.h"
 
-
+//zastupnik
 class MemFragmentProxy : public MemFragment {
 private:
 	MemFragmentImpl* impl;

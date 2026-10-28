@@ -2,6 +2,7 @@
 
 enum class byte : unsigned char {};
 
+// prototip
 class MemFragment {
 public:
 	virtual byte read(int address) = 0;

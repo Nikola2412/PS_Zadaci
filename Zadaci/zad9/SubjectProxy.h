@@ -4,6 +4,8 @@
 #include "HttpInterface.h"
 #include <unordered_map>
 
+
+//zastupnik
 class SubjectProxy : public Subject {
 private:
 	std::string address;
@@ -19,8 +21,10 @@ public:
 		parameters["method"] = "f1";
 
 		int code = this->http->get(address, parameters);
-		std::cout << code << std::endl;
-		//if ....
+
+		if (code == 200) {
+			std::cout << "OK" << std::endl;
+		}
 	}
 	void f2() {
 		std::unordered_map<std::string, std::string> parameters;
@@ -28,6 +32,10 @@ public:
 		parameters["method"] = "f2";
 
 		int code = this->http->get(address, parameters);
+
+		if (code == 200) {
+			std::cout << "OK" << std::endl;
+		}
 	}
 	int f3() {
 		std::unordered_map<std::string, std::string> parameters;

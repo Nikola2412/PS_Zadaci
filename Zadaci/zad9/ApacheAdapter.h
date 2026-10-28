@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+
+//adapter
 class ApacheAdapter : public HttpInterface {
 public:
     int get(
