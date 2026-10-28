@@ -40,7 +40,12 @@ protected:
 	}
 
 public:
-	virtual void printData() = 0;
+	virtual void printData() {
+		for (auto& [type, texture] : textures)
+		{
+			texture->printData();
+		}
+	};
 
 	TextureGallery() = default;
 	~TextureGallery() {

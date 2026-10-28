@@ -8,6 +8,6 @@ public:
 public:
 	void printData() {
 		std::cout << "TextureGalleryEarth" << std::endl;
-		this->printTextureData();
+		TextureGallery::printData();
 	}
 };

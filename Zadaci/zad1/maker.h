@@ -5,6 +5,8 @@
 class make
 {
 public:
+	// sablononski metod
+	// definisani koraci izvrsavanja
 	void makeBeverage() {
 		boilWater();
 		brew();

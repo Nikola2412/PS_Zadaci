@@ -57,6 +57,9 @@
     <ClCompile Include="zad7\test7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad8\test8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -174,6 +177,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad7\TextureGalleryMars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\MemFragment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\MemFragmentImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\OS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\test8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad8\MemFragmentProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

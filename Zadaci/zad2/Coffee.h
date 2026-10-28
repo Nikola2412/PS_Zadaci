@@ -2,6 +2,10 @@
 
 #include <string>
 
+// Sve vrste kafe i prilozi se izvode iz Coffe, 
+// pri cemu ce prilozi biti dekoracije.
+// Cena dekoracije ce rekurzivno dodaje
+
 class Coffee
 {
 public:
