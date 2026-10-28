@@ -203,6 +203,10 @@
     <ClInclude Include="zad8\OS.h" />
     <ClInclude Include="zad8\Process.h" />
     <ClInclude Include="zad8\test8.h" />
+    <ClInclude Include="zad9\ApacheAdapter.h" />
+    <ClInclude Include="zad9\HttpInterface.h" />
+    <ClInclude Include="zad9\Subject.h" />
+    <ClInclude Include="zad9\SubjectProxy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
