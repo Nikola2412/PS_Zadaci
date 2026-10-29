@@ -51,6 +51,9 @@
     <ClCompile Include="zad10\MagicEffects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad11\zad11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -201,6 +204,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad10\Magic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\SaveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\UndoCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\PanelState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\PanelStateLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad11\Panel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

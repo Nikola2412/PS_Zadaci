@@ -144,6 +144,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="zad10\MagicEffects.cpp" />
     <ClCompile Include="zad10\test10.cpp" />
+    <ClCompile Include="zad11\zad11.cpp" />
     <ClCompile Include="zad1\test1.cpp" />
     <ClCompile Include="zad2\test2.cpp" />
     <ClCompile Include="zad3\test3.cpp" />
@@ -162,6 +163,12 @@
     <ClInclude Include="zad10\Magician.h" />
     <ClInclude Include="zad10\MagicMushroom.h" />
     <ClInclude Include="zad10\PoisonEffect.h" />
+    <ClInclude Include="zad11\Command.h" />
+    <ClInclude Include="zad11\Panel.h" />
+    <ClInclude Include="zad11\PanelState.h" />
+    <ClInclude Include="zad11\PanelStateLog.h" />
+    <ClInclude Include="zad11\SaveCommand.h" />
+    <ClInclude Include="zad11\UndoCommand.h" />
     <ClInclude Include="zad2\BlendCoffee.h" />
     <ClInclude Include="zad2\ChocolateCoffeeAddition.h" />
     <ClInclude Include="zad2\CoffeeAddition.h" />
