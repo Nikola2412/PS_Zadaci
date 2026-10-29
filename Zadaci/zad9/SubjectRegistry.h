@@ -16,7 +16,7 @@ public:
 	SubjectRegistry() : address(ADDRESS){
 		HttpInterface* http = new ApacheAdapter();
 
-		for (size_t i = 0; i < 64; i++)
+		for (int i = 0; i < 64; i++)
 		{
 			if (i < 32) {
 				objects[i] = new SubjectImpl(i);

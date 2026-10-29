@@ -142,6 +142,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="zad10\MagicEffects.cpp" />
+    <ClCompile Include="zad10\test10.cpp" />
     <ClCompile Include="zad1\test1.cpp" />
     <ClCompile Include="zad2\test2.cpp" />
     <ClCompile Include="zad3\test3.cpp" />
@@ -153,6 +155,13 @@
     <ClCompile Include="zad9\test9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="zad10\Coordinates.h" />
+    <ClInclude Include="zad10\Magic.h" />
+    <ClInclude Include="zad10\HealingEffect.h" />
+    <ClInclude Include="zad10\MagicEffect.h" />
+    <ClInclude Include="zad10\Magician.h" />
+    <ClInclude Include="zad10\MagicMushroom.h" />
+    <ClInclude Include="zad10\PoisonEffect.h" />
     <ClInclude Include="zad2\BlendCoffee.h" />
     <ClInclude Include="zad2\ChocolateCoffeeAddition.h" />
     <ClInclude Include="zad2\CoffeeAddition.h" />

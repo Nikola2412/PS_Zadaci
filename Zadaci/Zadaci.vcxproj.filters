@@ -18,25 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="zad1\maker.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zad1\coffee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zad1\Tea.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="zad1\test1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zad2\Coffee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zad2\BlendCoffee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zad2\SingleOriginCoffee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="zad2\test2.cpp">
@@ -60,6 +42,15 @@
     <ClCompile Include="zad8\test8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad9\test9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zad10\test10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zad10\MagicEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -74,9 +65,6 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad1\test1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="zad2\Coffee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -84,9 +72,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad2\SingleOriginCoffee.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="zad2\test2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad2\CoffeeAddition.h">
@@ -104,16 +89,10 @@
     <ClInclude Include="zad3\Singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad3\test3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="zad3\Multiton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad4\Chatbot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="zad4\test4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad4\QuestionChooser.h">
@@ -137,9 +116,6 @@
     <ClInclude Include="zad5\Items.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad5\test5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="zad6\HAL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -153,9 +129,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad6\SpeedAdapter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="zad6\test6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad7\TextureGallery.h">
@@ -173,9 +146,6 @@
     <ClInclude Include="zad7\TextureLand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad7\test7.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="zad7\TextureGalleryMars.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -191,10 +161,46 @@
     <ClInclude Include="zad8\OS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad8\test8.h">
+    <ClInclude Include="zad8\MemFragmentProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zad8\MemFragmentProxy.h">
+    <ClInclude Include="zad9\ApacheAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad9\HttpInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad9\Subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad9\SubjectImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad9\SubjectProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad9\SubjectRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\Magician.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\MagicMushroom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\Coordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\MagicEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\HealingEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\PoisonEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad10\Magic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

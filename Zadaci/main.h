@@ -9,3 +9,4 @@ void test6();
 void test7();
 void test8();
 void test9();
+void test10();
