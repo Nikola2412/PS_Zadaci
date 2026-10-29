@@ -224,5 +224,11 @@
     <ClInclude Include="zad11\Panel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="zad12\Stock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad12\StockService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
