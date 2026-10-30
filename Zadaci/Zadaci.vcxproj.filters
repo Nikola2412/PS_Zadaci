@@ -54,6 +54,9 @@
     <ClCompile Include="zad11\zad11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad12\test12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -228,6 +231,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad12\StockService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad12\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad12\Company.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad12\IndividualUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
