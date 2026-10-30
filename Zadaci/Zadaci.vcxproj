@@ -141,6 +141,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="k1_24_25\test_k1_24_25.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="zad10\MagicEffects.cpp" />
     <ClCompile Include="zad10\test10.cpp" />
@@ -158,6 +159,12 @@
     <ClCompile Include="zad9\test9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="k1_24_25\Filter.h" />
+    <ClInclude Include="k1_24_25\Greyscale.h" />
+    <ClInclude Include="k1_24_25\Image.h" />
+    <ClInclude Include="k1_24_25\Invert.h" />
+    <ClInclude Include="k1_24_25\Pixel.h" />
+    <ClInclude Include="k1_24_25\RawImage.h" />
     <ClInclude Include="zad10\Coordinates.h" />
     <ClInclude Include="zad10\Magic.h" />
     <ClInclude Include="zad10\HealingEffect.h" />

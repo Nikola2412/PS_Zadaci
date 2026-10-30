@@ -60,6 +60,9 @@
     <ClCompile Include="zad13\zad13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="k1_24_25\test_k1_24_25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -270,6 +273,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad13\Giant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\Pixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\Greyscale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\Invert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\RawImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="k1_24_25\Filter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
