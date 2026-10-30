@@ -57,6 +57,9 @@
     <ClCompile Include="zad12\test12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="zad13\zad13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zad1\maker.h">
@@ -240,6 +243,33 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zad12\IndividualUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Jewelry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Bag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Elf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Dwarf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zad13\Giant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

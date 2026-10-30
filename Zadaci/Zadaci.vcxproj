@@ -146,6 +146,7 @@
     <ClCompile Include="zad10\test10.cpp" />
     <ClCompile Include="zad11\zad11.cpp" />
     <ClCompile Include="zad12\test12.cpp" />
+    <ClCompile Include="zad13\zad13.cpp" />
     <ClCompile Include="zad1\test1.cpp" />
     <ClCompile Include="zad2\test2.cpp" />
     <ClCompile Include="zad3\test3.cpp" />
@@ -175,6 +176,15 @@
     <ClInclude Include="zad12\Stock.h" />
     <ClInclude Include="zad12\StockService.h" />
     <ClInclude Include="zad12\User.h" />
+    <ClInclude Include="zad13\Bag.h" />
+    <ClInclude Include="zad13\Dwarf.h" />
+    <ClInclude Include="zad13\Enemy.h" />
+    <ClInclude Include="zad13\Elf.h" />
+    <ClInclude Include="zad13\Giant.h" />
+    <ClInclude Include="zad13\Hero.h" />
+    <ClInclude Include="zad13\Item.h" />
+    <ClInclude Include="zad13\Jewelry.h" />
+    <ClInclude Include="zad13\Weapon.h" />
     <ClInclude Include="zad2\BlendCoffee.h" />
     <ClInclude Include="zad2\ChocolateCoffeeAddition.h" />
     <ClInclude Include="zad2\CoffeeAddition.h" />
