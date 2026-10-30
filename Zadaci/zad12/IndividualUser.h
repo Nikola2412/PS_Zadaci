@@ -1,5 +1,6 @@
 #pragma once
 #include "User.h"
+#include "StockService.h"
 
 #include <unordered_map>
 

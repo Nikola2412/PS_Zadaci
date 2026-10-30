@@ -1,4 +1,7 @@
 #pragma once
+#include "User.h"
+
+#include <algorithm>
 #include <vector>
 #include <unordered_map>
 
