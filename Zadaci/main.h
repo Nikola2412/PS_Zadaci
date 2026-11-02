@@ -14,4 +14,4 @@ void test11();
 void test12();
 void test13();
 
-void k1_24_25();
+void k1_zad1_24_25();
